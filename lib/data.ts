@@ -143,7 +143,7 @@ export const workExperiences: WorkExperience[] = [
     position: "Full Stack Developer",
     description:
       "Developing internal tools, automation workflows, and digital solutions for Nepal Media Network.",
-    years: "2023 - Present",
+    years: "2025 - Present",
   },
   {
     company: "WebX",
