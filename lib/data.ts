@@ -23,18 +23,17 @@ import {
   SiTailwindcss,
   SiFlask,
   SiOpenai,
-  SiReact,
+  SiExpo,
 } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { SiExpo, SiReactquery } from "react-icons/si";
 
 export const skills = [
   { icon: SiTypescript, text: "TypeScript" },
   { icon: SiJavascript, text: "JavaScript" },
   { icon: SiReact, text: "React" },
-  { icon: SiNextdotjs, text: "Next" },
   { icon: SiReact, text: "React Native" },
   { icon: SiExpo, text: "Expo" },
+  { icon: SiNextdotjs, text: "Next" },
   { icon: SiTailwindcss, text: "Tailwind" },
   { icon: SiRedux, text: "Redux" },
   { icon: SiFlask, text: "Flask" },
@@ -72,31 +71,30 @@ export const projects: Project[] = [
   {
     title: "FlashUI (Component Library)",
     description:
-      "A custom component library and UI system for fast product development.",
+      "A custom UI component library built for fast product development.",
     link: "https://component-library-git-main-dawa-sherpas-projects.vercel.app",
   },
   {
     title: "Pic2Ans",
     description:
-      "AI-powered solution that extracts answers from images using OCR + LLM.",
+      "AI-powered tool that extracts answers from images using OCR + LLM.",
     link: "https://pic2ans.vercel.app",
   },
   {
     title: "Nepali Handwriting OCR",
     description:
-      "A CRNN-based deep learning model for recognizing Nepali handwritten text.",
-    link: "https://github.com/dawasherpa-ui", // replace with actual repo if available
+      "A CRNN-based deep learning model for Nepali handwritten text recognition.",
+    link: "https://github.com/dawasherpa-ui", // replace if you want
   },
   {
     title: "VoteHub",
     description:
-      "A voting and decision-support platform to help users choose the best options.",
+      "A voting & decision-support platform to help users choose the best option.",
     link: "https://votehub-rho.vercel.app",
   },
   {
     title: "Multi Dashboard",
-    description:
-      "A CMS for managing multiple websites’ content from a single dashboard.",
+    description: "A CMS that manages content for multiple websites.",
     link: "https://github.com/",
   },
   {
@@ -106,13 +104,13 @@ export const projects: Project[] = [
   },
   {
     title: "Scrapping Bot",
-    description: "Scraper for real estate agents to collect leads efficiently.",
+    description: "Scraper built to gather real estate lead data.",
     link: "https://github.com/dawasherpa-ui/FastPeopleScraper",
   },
   {
     title: "Instagram UnFollower Bot",
     description:
-      "Automation bot for unfollowing users on Instagram automatically.",
+      "Automation tool that unfollows Instagram users automatically.",
     link: "https://github.com/dawasherpa-ui/Instagram-Unfollower",
   },
   {
@@ -136,7 +134,7 @@ export const workExperiences: WorkExperience[] = [
     logo: "/work/zylux.png",
     position: "Full Stack Developer",
     description:
-      "Working on production-grade applications, dashboards, automation tools, and client projects with modern full-stack stacks.",
+      "Building production-grade systems, dashboards, automation tools, and client projects.",
     years: "Sept, 2024 - Present",
   },
   {
@@ -144,15 +142,15 @@ export const workExperiences: WorkExperience[] = [
     logo: "/work/nepalmedia.png",
     position: "Full Stack Developer",
     description:
-      "Built internal tools, automation systems, and digital solutions for Nepal Media Network.",
+      "Developing internal tools, automation workflows, and digital solutions for Nepal Media Network.",
     years: "2023 - Present",
   },
   {
     company: "WebX",
     logo: "/work/webx.svg",
-    position: "FullStack",
+    position: "FullStack Developer",
     description:
-      "Built CMS, eCommerce platforms, dashboards, and portfolios. Managed server operations and developed end-to-end solutions.",
+      "Built CMS, eCommerce systems, dashboards and handled server deployments.",
     years: "Mar, 2024 - Sept, 2024",
   },
   {
@@ -160,7 +158,7 @@ export const workExperiences: WorkExperience[] = [
     logo: "/work/freelance.jpg",
     position: "Freelance Developer",
     description:
-      "Delivered AI solutions, automation tools, and full-stack apps for global clients.",
+      "Delivered AI tools, automation systems, and full-stack solutions for clients worldwide.",
     years: "Ongoing",
   },
   {
@@ -168,7 +166,7 @@ export const workExperiences: WorkExperience[] = [
     logo: "/work/self.jpeg",
     position: "Self-Taught Developer",
     description:
-      "Continuously expanding skills in AI, automation, and full-stack engineering.",
+      "Continuously expanding skills in AI, machine learning, automation, and full-stack development.",
     years: "Ongoing",
   },
 ];
@@ -176,7 +174,7 @@ export const workExperiences: WorkExperience[] = [
 export const aboutYou = {
   name: "Dawa Sherpa",
   description:
-    "👋 Hi, I'm Dawa Sherpa, a Fullstack & AI Developer with 4 years of experience. I’ve built production-ready apps for companies and clients, including AI tools, automation systems, CMS platforms, dashboards, and business products. I also develop my own platforms like ConverseBiz, FlashUI, and Pic2Ans. Passionate about AI, problem-solving, and building meaningful digital experiences.",
+    "👋 Hi, I'm Dawa Sherpa, a Fullstack & AI Developer with 4 years of experience. I’ve built production-ready applications for companies and clients, including automation tools, CMS platforms, dashboards, and AI-powered products. I also build my own platforms like ConverseBiz, FlashUI, and Pic2Ans. Passionate about building meaningful digital experiences with modern AI and engineering.",
   yearsOfExperience: "4 yrs",
   location: "Nepal, Kathmandu",
   email: "jamudawa2@gmail.com",
